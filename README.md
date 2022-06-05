@@ -1,6 +1,8 @@
 # KEY spammer:
 Is a macro tool made with python.
-
+# Requirements:
+  `python 3.9`
+  `pyautogui`
 # How to use:
   To use the macro, run
   ```
