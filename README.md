@@ -4,7 +4,7 @@ Is a macro tool made with python.
 # How to use:
   To use the macro, run
   ```
-  git clone "https://github.com/javiers-code/key-spammer"
+  git clone "https://github.com/javiers-code/key-macro"
   ```
   Then, cd into the directory
   ```
