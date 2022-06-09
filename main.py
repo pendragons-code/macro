@@ -5,12 +5,11 @@ from colorama import Fore
 pyautogui.FAILSAFE = False
 
 print(Fore.CYAN+"""
-  _
- | | _____ _   _
- | |/ / _ \ | | |
- |   <  __/ |_| |
- |_|\_\___|\__, |go brrrrr
-           |___/
+  __  __    _    ____ ____   ___  
+ |  \/  |  / \  / ___|  _ \ / _ \ 
+ | |\/| | / _ \| |   | |_) | | | |
+ | |  | |/ ___ \ |___|  _ <| |_| |
+ |_|  |_/_/   \_\____|_| \_|\___/ 
 """)
 print(Fore.GREEN+"[1] Typewrite")
 print(Fore.GREEN+"[2] Keybinds")
@@ -25,7 +24,7 @@ if inputField == "1":
   tMinus = int(t)
   delay = int(d)
 
-  print(Fore.YELLOW+"KEY IS STARTING...")
+  print(Fore.YELLOW+"MACRO IS STARTING...")
 
   while(tMinus != 0):
       print("T-Minus "+str(tMinus))
@@ -45,7 +44,7 @@ if inputField == "2":
   howManyX = int(x)
   tMinus = int(t)
   delay = int(d)
-  print(Fore.YELLOW+"KEY IS STARTING...")
+  print(Fore.YELLOW+"MACRO IS STARTING...")
 
   while(tMinus != 0):
       print("T-Minus "+str(tMinus))
