@@ -1,4 +1,4 @@
-# KEY spammer:
+# MACRO:
 Is a macro tool made with python.
 # Requirements:
   `python 3.9`
