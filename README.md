@@ -1,7 +1,10 @@
 # MACRO:
 Is a macro tool made with python.
 # Requirements:
-  `python 3.9`
+  `python 3.9`\
+  `pip`\
+  `scrot`\
+  `tk`\
   `pyautogui`
 # How to use:
   To use the macro, run
@@ -10,7 +13,7 @@ Is a macro tool made with python.
   ```
   Then, cd into the directory
   ```
-  cd key-spammer
+  cd macro
   ```
   Now, run the python file
   ```
