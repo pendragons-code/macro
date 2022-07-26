@@ -14,7 +14,8 @@ print(Fore.CYAN+"""
 print(Fore.GREEN+"[1] Typewrite")
 print(Fore.GREEN+"[2] Keybinds")
 inputField = input("Please select an option: \n")
-s = input(Fore.BLUE+"Enter your message: ")
+if inputField == "1":
+    s = input(Fore.BLUE+"Enter your message: ")
 x = input(Fore.BLUE+"How many times: ")
 t = input(Fore.BLUE+"Countdown: ")
 d = input(Fore.BLUE+"Delay per message: ")
@@ -32,10 +33,10 @@ if inputField == "1":
         sleep(delay)
 
 if inputField == "2":
-  confirm = input(Fore.YELLOW+"Have you copied the text? If not, copy it, then come back.")
-    if confirm != "y" and confirm != "yes":
-        exit()
-      for i in range(0, howManyX):
-        pyautogui.hotkey("ctrl","v")
-        pyautogui.typewrite("\n")
-        sleep(delay)
+    confirm = input(Fore.YELLOW+"Have you copied the text? If not, copy it, then come back.: ")
+  if confirm != "y" and confirm != "yes":
+      exit()
+  for i in range(0, howManyX):
+    pyautogui.hotkey("ctrl","v")
+    pyautogui.typewrite("\n")
+    sleep(delay)
