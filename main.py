@@ -52,6 +52,6 @@ if inputField == "2":
       tMinus -= 1   
   
   for i in range(0, howManyX):
-    sleep(delay)
     pyautogui.hotkey("ctrl","v")
     pyautogui.typewrite("\n")
+    sleep(delay)
